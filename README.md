@@ -1,2 +1,7 @@
 # java-ecommerse
-it is just basic website with 6-7 pages created. like index page, cart page , admin pages,
+It is a basic website created you can work on it for further process.
+
+The lanquages used are Java, SQL, JavaScript(Jquery, Ajax).
+I used Ajax in dropdown select from anathor dropdown.
+
+I will complete this project after my exams
