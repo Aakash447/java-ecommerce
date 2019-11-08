@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ecom2</display-name>
+  <servlet>
+    <servlet-name>Connect_db</servlet-name>
+    <servlet-class>accounts.Connect_db</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connect_db</servlet-name>
+    <url-pattern>/Connect_db</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>accounts.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>accounts.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>addBrands</servlet-name>
+    <servlet-class>accounts.addBrands</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addBrands</servlet-name>
+    <url-pattern>/addBrands</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

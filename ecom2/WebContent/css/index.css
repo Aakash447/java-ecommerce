@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+    body{
+      background-color: #f2f2f2;
+    }
+    
+   
+  
+   
+
+    footer { 
+      background-color: LightGray;
+    }
+
+       .sidenavl {
+        margin-top: 20px;
+       position:absolute;
+      padding:20px;
+      float:left;
+      background-color:black;
+       
+      height:1200px;  /* 600px */
+      width:250px;
+      text-align: center;
+    }
+
+    .sidenavr {
+      margin-top: 20px;
+      padding:20px;
+      position:absolute;
+      background-color: LightGray;
+      margin-left:1285px;  /*   margin-left give multiple content  */
+      height:1200px;
+      width:200px;
+      text-align: center;
+    }
+
+
+    .sidenavl > *{
+      padding:7px;
+      text-decoration-color :white;
+    }
+
+    .items{
+      width:333px;
+      float:left;
+      padding:0px;
+      padding-left:35px; 
+      
+    }
+    .Products{
+      margin-top: 20px;
+      margin-left:260px;
+      width:1010px;
+      height: 600px;
+      position:absolute;
+      z-index:-1;
+      
+    }
+    .Productsp{
+      margin-top: 20px;
+      margin-left:125px;
+      width:1010px;
+      height: 600px;
+      position:absolute;
+      z-index:-1;
+      
+    }
+
+    .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    }
+    
+    .stickyl{
+    position: fixed;
+    top: 50px;
+    
+    }
+    
+    
+    
+
+
